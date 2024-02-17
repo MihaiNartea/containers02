@@ -17,7 +17,10 @@ Executiile efectuate.
   - Cât timp a durat crearea imaginii? - **Building 20.8s**
 
 - A doua executie `docker run --name=containers02 containers02` - executa imaginea creata.
-  - Ce a fost afișat în consolă? - **hello from 00b50b3da101**
+  - Ce a fost afișat în consolă? -
+    ```
+    hello from 00b50b3da101
+    ```
 
 - A treia executie `docker rm containers02` si `docker run -ti --name containers02 containers02 bash`. - Am sters containerul cu numele **containers02**, dupa executarea repetata am accesat imaginea.
   - In fereastra deschisa am executat `cd /var/www/html/` si `ls -l`
